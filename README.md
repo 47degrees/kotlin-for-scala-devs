@@ -607,7 +607,7 @@ Try.monad().binding(UIThread) { //flatMap execution happens in the UI thread
 - [Ank](https://github.com/arrow-kt/ank): Doc type checker like `tut`
 - [Helios](https://github.com/47deg/helios): Json lib: Jawn port and based on arrow optics for its DSL
 - [Kollect](https://github.com/47deg/kollect): Fetch port
-- [Bow](https://github.com/arrow-kt/ank): Arrow for Swift
+- [Bow](https://github.com/arrow-kt/bow): Arrow for Swift
 
 ---
 
