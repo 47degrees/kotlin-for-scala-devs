@@ -328,7 +328,6 @@ new Service[Option]
 Kotlin
 
 ```kotlin
-import javax.inject
 import arrow.*
 import arrow.typeclasses.Functor
 
@@ -350,7 +349,7 @@ van normalizedResult: Option<String> = result.fix()
 Kotlin
 
 ```kotlin
-import javax.inject
+import javax.inject.Inject
 import arrow.*
 import dagger.*
 import arrow.dagger.instances.*
