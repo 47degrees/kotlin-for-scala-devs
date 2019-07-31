@@ -561,7 +561,7 @@ val tryMonad = Try.monad()
 fun stackSafeTestProgram(n: Int, stopAt: Int): Free<ForTry, Int> = 
     tryMonad.bindingStackSafe {
         val v = Try {n + 1}.bind()
-        val r = if (v < stopAt) stackSafeTestProgram(M, v, stopAt).bind() else Try { v }.bind()
+        val r = if (v < stopAt) stackSafeTestProgram(v, stopAt).bind() else Try { v }.bind()
         r
     }
 
