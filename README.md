@@ -117,9 +117,9 @@ Kotlin
 
 ```kotlin
 when (errorType) {
-    is MyError1 => TODO()
-    is MyError2 => TODO()
-    is MyError3 => throw errorType.underlying //note smart cast
+    is MyError1 -> TODO()
+    is MyError2 -> TODO()
+    is MyError3 -> throw errorType.underlying //note smart cast
 }
 ```
 
